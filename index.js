@@ -34,7 +34,32 @@ app.use("/api/coins", require("./routes/CoinRoute"));
 app.use("/", (req, res) => {
   res.send("App is Running");
 });
+//--------------------------------------------------------------------------------------------
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Useless Code   - Testing wallets creating
 var cw = require("crypto-wallets");
 // var bitcoinWallet = cw.generateWallet("BTC");
 // console.log("Address: " + bitcoinWallet.address);
